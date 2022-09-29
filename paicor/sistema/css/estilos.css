@@ -1,0 +1,247 @@
+body{
+    background: #FFFFFF;
+    font-family: sans-serif;
+    margin: 0;
+}
+footer{
+    padding: 10px;
+}
+/* --------------- Header --------------- */
+header{
+    display: flex;
+    height: 70px;
+    background: #1B2021;
+    align-items: center;
+    padding: 10px;
+    color: #FFFFFF;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+.logo h1{
+    margin-right: 500px;
+}
+header p {
+    font-size: 12px;
+}
+
+/* --------------- Navegacion --------------- */
+nav{
+    height: 50px;
+    padding: 10px;
+    background: #51513D;
+    display: flex;
+    margin-bottom: 60px;
+}
+nav a, p{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav_link{
+    display: flex;
+    list-style: none;
+}
+nav li, p{
+    font-size: 18px;
+    margin: 0 10px;
+    justify-content: center;
+    width: max-content;
+}
+
+/* --------------- Texto principal --------------- */
+.crear, .ver{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+}
+.crear_img, .ver_img{
+    width: 300px;
+    margin-left: 100px;
+    float: left;
+    text-transform: none;
+}
+pre{
+    color: black;
+    margin-right: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.link_pr{
+    color: black;
+    font: bold;
+    cursor: pointer;
+}
+
+/* --------------- Formulario --------------- */
+.form_register{
+    width: 450px;
+    margin: auto;
+}
+
+.form_register h1{
+    color: black;
+}
+hr{
+    border: 0;
+    background: #CCC;
+    height: 1px;
+    margin: 10px 0;
+    display: block;
+}
+form{
+    background: #FFF;
+    margin: auto;
+    padding: 20px 50px;
+    border: 1px solid #d1d1d1;
+}
+label{
+    display: block;
+    font-size: 12pt;
+    margin: 15px auto 5px auto;
+}
+input{
+    display: block;
+    width: 100%;
+    font-size: 11pt;
+    padding: 5px;
+    border: 1px solid #85929e;
+    border-radius: 5px;
+}
+
+.btn_save{
+    font-size: 12pt;
+    background: #A6A867;
+    padding: 10px;
+    color: #FFF;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin: 15px auto;
+}
+.alert{
+    width: 100%;
+    background: #F5F5F5;
+    border-radius: 6px;
+    margin: 20px auto;
+}
+.msg_error{
+    color: #e65656;
+}
+.msg_save{
+    color: #126e00;
+}
+.alert p{
+    padding: 10px;
+}
+
+.ver_registros{
+    justify-content: flex-end;
+    background: #A6A867;
+    color: #FFF;
+    padding: 5px 25px;
+    border-radius: 4px;
+    margin: 20px;
+    text-decoration: none;
+}
+/* --------------- Lista de Usuarios --------------- */
+.container_lista h2{
+    font-size: 35px;
+    display: block;
+}
+.btn_new{
+    display: inline-block;
+    background: #A6A867;
+    color: #FFF;
+    padding: 5px 25px;
+    border-radius: 4px;
+    margin: 20px;
+    text-decoration: none;
+}
+table{
+    border-collapse: collapse;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+table th{
+    text-align: left;
+    padding: 10px;
+    background: #69694F;
+    color: #FFF;
+}
+table tr:nth-child(odd){
+    background: #FFF;
+}
+table td{
+    padding: 10px;
+}
+table .th_nombre, .th_ubicacion, .th_rubro, .th_descripcion{
+    width: 20%;
+}
+table .th_fecha, .th_precio{
+    width: 10%;
+}
+
+/* --------------- Paginador --------------- */
+.paginador ul{
+    padding: 15px;
+    list-style: none;
+    background: #FFF;
+    margin-top: 15px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-end;
+}
+.paginador a, .page_actual{
+    color: #A6A867;
+    border: 1px solid #ddd;
+    padding: 5px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    width: 35px;
+    text-decoration: none;
+}
+.paginador a:hover{
+    background: #ddd;
+}
+.page_actual{
+    color: #FFF;
+    background: #A6A867;
+    border: 1px solid #A6A867;
+}
+
+/* --------------- Buscador --------------- */
+.form_search{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    float: right;
+    background: initial;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.form_search .btn_search{
+    background: #A6A867;
+    color: #FFF;
+    padding: 0 20px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+}
